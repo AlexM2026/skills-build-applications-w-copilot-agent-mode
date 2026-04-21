@@ -1,0 +1,142 @@
+/* OctoFit Tracker - App.css */
+
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link.active {
+  color: #ffd700 !important;
+  border-bottom: 2px solid #ffd700;
+}
+
+/* Hero / Home Card */
+.octofit-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 3rem 2.5rem;
+  margin-top: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.octofit-hero h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+
+.octofit-hero .lead {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.octofit-hero .hero-links .btn {
+  min-width: 140px;
+}
+
+/* Page headings */
+.page-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  border-left: 5px solid #0f3460;
+  padding-left: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Cards */
+.octofit-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.octofit-card .card-header {
+  background: linear-gradient(90deg, #1a1a2e, #0f3460);
+  color: #fff;
+  border-radius: 12px 12px 0 0 !important;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+/* Tables */
+.octofit-table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.octofit-table thead {
+  background: linear-gradient(90deg, #1a1a2e, #0f3460);
+  color: #fff;
+}
+
+.octofit-table thead th {
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 0.85rem 1rem;
+}
+
+.octofit-table tbody tr:hover {
+  background-color: #e8f0fe;
+  transition: background-color 0.15s;
+}
+
+.octofit-table tbody td {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
+
+/* Rank badge */
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.rank-1 { background-color: #ffd700; color: #333; }
+.rank-2 { background-color: #c0c0c0; color: #333; }
+.rank-3 { background-color: #cd7f32; color: #fff; }
+.rank-other { background-color: #6c757d; color: #fff; }
+
+/* Difficulty badges */
+.badge-easy   { background-color: #198754; }
+.badge-medium { background-color: #fd7e14; }
+.badge-hard   { background-color: #dc3545; }
+
+/* Loading spinner */
+.octofit-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Footer */
+.octofit-footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  border-top: 1px solid #dee2e6;
+}
